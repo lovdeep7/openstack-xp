@@ -1,0 +1,38 @@
+{
+  "prod": {
+    "database": {
+          "ENV": "DB_NAME"
+      },
+      "user": {
+          "ENV": "DB_USER"
+      },
+      "password": {
+          "ENV": "DB_PASS"
+      },
+      "host": {
+          "ENV": "DB_HOST"
+      },
+      "port": {
+          "ENV": "DB_PORT"
+      },
+      "driver": "pg"
+  },
+  "dev": {
+    "database": {
+          "ENV": "DB_NAME"
+      },
+      "user": {
+          "ENV": "DB_USER"
+      },
+      "password": {
+          "ENV": "DB_PASS"
+      },
+      "host": {
+          "ENV": "DB_HOST"
+      },
+      "port": {
+          "ENV": "DB_PORT"
+      },
+      "driver": "pg"
+  }
+}
